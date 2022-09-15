@@ -64,15 +64,19 @@ nav {
 }
 
 .lang-choise__link,
-lang-chise__separator {
+.lang-chise__separator {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #6F42B8;
+  color: #ffffff;
+  text-decoration: none;
 }
 
+.lang-chise__separator,.lang-choise__link-pink{
+  color: #6F42B8;
+}
 .main-screen__box {
   display: flex;
   justify-content: space-between;
@@ -122,8 +126,8 @@ lang-chise__separator {
   height: 381px;
   position: absolute;
   z-index: 2;
-  top: 373px;
-  left: 48%;
+  top: 360px;
+  left: 46%;
 }
 
 .main-screen__decorative-item {
@@ -152,17 +156,17 @@ lang-chise__separator {
 }
 
 .main-screen__decorative-item-ux {
-  margin-top: 257px;
+  margin-top: 240px;
   margin-left: 30px;
 }
 
 .main-screen__decorative-item-design {
-  margin-top: 257px;
+  margin-top: 240px;
   margin-left: 160px;
 }
 
 .main-screen__decorative-item-figma {
-  margin-top: 328px;
+  margin-top: 310px;
   margin-left: 355px;
 }
 
@@ -573,7 +577,7 @@ lang-chise__separator {
 }
 
 .main-screen__decorative-item-ux {
-  margin-top: 257px;
+  margin-top: 240px;
   margin-left: 30px;
 }
 
