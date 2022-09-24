@@ -74,9 +74,11 @@ nav {
   text-decoration: none;
 }
 
-.lang-chise__separator,.lang-choise__link-pink{
+.lang-chise__separator,
+.lang-choise__link-pink {
   color: #6F42B8;
 }
+
 .main-screen__box {
   display: flex;
   justify-content: space-between;
@@ -350,6 +352,35 @@ nav {
 .portfolio__item>img {
   max-width: 100%;
   max-height: 100%;
+
+}
+
+.portfolio__item:first-child>img {
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+
+.portfolio__item:nth-child(n+2):nth-child(-n+2)>img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 40px;
+}
+
+.portfolio__item:nth-child(n+3):nth-child(-n+3)>img {
+  max-width: 352px;
+  max-height: 280px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.portfolio__item:nth-child(n+4):nth-child(-n+4)>img {
+  max-width: 474px;
+  max-height: 321px;
+  margin-right: 18px;
+  margin-top: 35px;
 }
 
 .white {
@@ -547,11 +578,13 @@ nav {
 }
 
 .hr-1 {
+  height: 1px;
+  background: rgb(255, 255, 255);
   left: 4.5%;
   width: 1350px;
   position: absolute;
   z-index: -1;
-  top: 1322px;
+  top: 1321px;
   display: block;
 }
 
@@ -696,8 +729,23 @@ nav {
   bottom: -32px;
 }
 
+.last-works__link{
+  display: block;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-decoration-line: underline;
+color: #FFFFFF;
+text-align: center;
+margin-top: 25px;
+padding-bottom: 55px;
+}
+
 .reviews-2 {
   background: #1E1E1E;
+  padding-bottom: 130px;
 }
 
 .reviews-2__title {
@@ -709,15 +757,63 @@ nav {
   line-height: 62px;
   color: #FFFFFF;
   padding-top: 60px;
+  padding-bottom: 90px;
 }
 
-.reviews__text {
+.slider {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.slick-list {
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+.slider_wrap * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.slider__item {
+  padding: 0 55px !important;
+}
+
+.slider__text {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 172.7%;
+  /* or 24px */
+
   text-align: center;
+
   color: #FFFFFF;
-  max-width: 342px;
+}
+
+.slider__sub-text{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+
+color: #FFFFFF;
+text-align: center;
+padding-top: 15px;
+}
+.slick-next{
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/Vector\ \(2\).svg) !important;
+  transform: rotate(180deg)
+}
+.slick-prev{
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/Vector\ \(2\).svg) !important;
 }

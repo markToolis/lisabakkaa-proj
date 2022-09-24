@@ -1,3 +1,5 @@
-new ItcSlider('.slider');document.addEventListener('DOMContentLoaded', () => {
-  new ItcSlider('.slider');
+$('.slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1 
 });
