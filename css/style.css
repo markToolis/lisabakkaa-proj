@@ -1921,3 +1921,6 @@ footer nav {
 .unser-ortfolio__line-box--mt-30px {
   margin-top: 30px;
 }
+.main-screen--d-block{
+  display: block;
+}
