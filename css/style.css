@@ -5,8 +5,11 @@
 *::after {
   box-sizing: border-box;
 }
-
-body {
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+body, html {
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -1920,4 +1923,7 @@ footer nav {
 
 .unser-ortfolio__line-box--mt-30px {
   margin-top: 30px;
+}
+.main-screen--d-block{
+  display: block;
 }
