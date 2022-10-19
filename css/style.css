@@ -942,6 +942,7 @@ header {
   .services__item {
     margin: 0 auto;
     margin-bottom: 40px;
+    max-width: 100%;
 
   }
 
@@ -1120,7 +1121,7 @@ footer nav {
   width: 1350px;
   position: absolute;
   z-index: -1;
-  top: 1321px;
+  top: 1315.5px;
   display: block;
 }
 
