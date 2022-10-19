@@ -1125,6 +1125,13 @@ footer nav {
   display: block;
 }
 
+
+@media (max-width:1300px){
+  .hr-1{
+    display: none;
+  }
+}
+
 .footer__title {
   font-family: 'DM Sans';
   font-style: normal;
