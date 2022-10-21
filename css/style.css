@@ -959,8 +959,9 @@ header {
   width: 103px;
   height: 103px;
   position: absolute;
-  top: 329px;
-  left: 211px;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
 
 }
 
