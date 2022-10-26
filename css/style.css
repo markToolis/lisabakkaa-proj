@@ -1994,7 +1994,7 @@ footer nav {
   line-height: 83px;
 
   color: #FFFFFF;
-  margin-top: 90px;
+  margin-top: 95px;
 }
 
 .color-purple {
@@ -2026,4 +2026,21 @@ footer nav {
 
 .main-screen--d-block {
   display: block;
+}
+
+@media (max-width:1300px) {
+  .unser-ortfolio__item {
+    display: none;
+  }
+
+  .last-works__item--mini {
+    display: block;
+  }
+
+  .unser-ortfolio__line-box{
+    display: none;
+  }
+  .last-works__box--upstairs--mt-30px{
+    margin-top: 30px;
+  }
 }
