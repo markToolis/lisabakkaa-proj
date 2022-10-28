@@ -220,7 +220,7 @@ header {
   width: 100%;
   height: 100%;
   padding: 30px;
-  backdrop-filter: blur(15px);
+  filter: blur(15px);
   transform: translateX(100%);
   transition: transform 0.5s;
 }
@@ -2012,7 +2012,7 @@ footer nav {
   width: 32.1%;
   position: relative;
   max-height: 315px;
-  object-fit: cover;
+  object-fit: covьутгer;
 }
 
 .unser-ortfolio__item>img {
@@ -2027,6 +2027,10 @@ footer nav {
 .main-screen--d-block {
   display: block;
 }
+.last-works__box--upstairs--mt-30px{
+  display: none;
+}
+
 
 @media (max-width:1300px) {
   .unser-ortfolio__item {
@@ -2041,6 +2045,7 @@ footer nav {
     display: none;
   }
   .last-works__box--upstairs--mt-30px{
+    display: flex;
     margin-top: 30px;
   }
 }
