@@ -1474,6 +1474,7 @@ footer nav {
   .our-team__mini-img {
     display: block;
     margin-top: -20px;
+    max-width: 100%;
   }
 
   .our-team__img {
