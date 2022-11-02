@@ -1485,11 +1485,13 @@ footer nav {
 .main-screen__decorative__block--mobile {
   display: none;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .main-screen__decorative__block {
     display: none;
   }
+}
+@media (max-width: 800px) {
+
 
   .main-screen__decorative__block--mobile {
     position: absolute;
