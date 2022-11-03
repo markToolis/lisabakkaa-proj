@@ -1700,7 +1700,7 @@ footer nav {
 }
 @media (max-width:600px) {
   .main-screen__decorative__block--mobile-2 {
-    margin-top: 325px;
+    margin-top: 270px;
     transform: scale(1.0);
     right: 15px;
   }
