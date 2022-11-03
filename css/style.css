@@ -494,10 +494,16 @@ header {
 .main-screen__decorative-item-typography {
   margin-top: 100px;
 }
-
+.main-screen__decorative-item-typography:hover{
+  background: #78D53F;
+}
 .main-screen__decorative-item-mind {
   margin-top: 132px;
   margin-left: 189px;
+}
+
+.main-screen__decorative-item-mind:hover{
+  background: #EF4848;
 }
 
 .main-screen__decorative-item-ui {
@@ -505,20 +511,32 @@ header {
   margin-left: 107px;
 }
 
+.main-screen__decorative-item-ui:hover{
+  background: #3FD5D5;
+}
+
 .main-screen__decorative-item-ux {
   margin-top: 240px;
   margin-left: 30px;
 }
-
+.main-screen__decorative-item-ux:hover{
+  background: #B7D53F;
+}
 .main-screen__decorative-item-design {
   margin-top: 240px;
   margin-left: 160px;
 }
-
+.main-screen__decorative-item-design:hover{
+  background: #6F42B8;
+}
 .main-screen__decorative-item-figma {
   margin-top: 310px;
   margin-left: 355px;
 }
+
+.main-screen__decorative-item-figma:hover{
+  background: #D53FC6;
+} 
 
 .description {
   display: flex;
@@ -1282,6 +1300,10 @@ footer nav {
 
 .main-screen__decorative-item-WEB {
   margin-left: 117.5px;
+
+}
+.main-screen__decorative-item-Research:hover {
+  background: #9747FF;
 }
 
 .main-screen__decorative-item-DEVELOPMENT {
