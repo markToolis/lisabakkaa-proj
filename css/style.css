@@ -460,15 +460,8 @@ header {
 .main-screen__decorative__block--mobile-2 {
   margin-top: 295px;
   transform: scale(1.2);
-
 }
 
-@media (max-width:600px) {
-  .main-screen__decorative__block--mobile-2 {
-    margin-top: 325px;
-    transform: scale(1.0);
-  }
-}
 
 .main-screen__decorative__block {
   position: relative;
@@ -1519,7 +1512,7 @@ footer nav {
     position: absolute;
     top: 260px;
     left: auto;
-    right: 15px;
+    right: 40px;
     width: 180px;
     height: 500px;
     display: flex;
@@ -1705,7 +1698,13 @@ footer nav {
     margin-bottom: 35px;
   } */
 }
-
+@media (max-width:600px) {
+  .main-screen__decorative__block--mobile-2 {
+    margin-top: 325px;
+    transform: scale(1.0);
+    right: 15px;
+  }
+}
 @media (max-width:650px) {
   .last-works__aroow {
     width: 90px;
