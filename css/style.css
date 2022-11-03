@@ -2102,6 +2102,15 @@ footer nav {
   max-height: 315px;
   object-fit: covьутгer;
 }
+.unser-ortfolio__item:hover{
+  transform: scale(1.1);
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.unser-ortfolio__item .last-works__aroow{
+  transform: scale(1.0);
+}
 
 .unser-ortfolio__item>img {
   width: 100%;
