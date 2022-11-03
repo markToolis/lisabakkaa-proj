@@ -615,6 +615,15 @@ header {
 .experiance__item {
   width: 188px;
 }
+.experiance__item--mt-20px{
+  margin-top: -20.5px;
+}
+
+@media (max-width:1300px){
+  .experiance__item--mt-20px{
+    margin-top: 0;
+  }
+}
 
 .experiance__item>img {
   margin: 0 auto;
@@ -635,7 +644,9 @@ header {
   color: #FFFFFF;
 
 }
-
+/* .experience__sub-title--width_200px{
+  width: 250px;
+} */
 .experience__buttom__text,
 .experience__top-text {
   font-family: 'DM Sans';
@@ -857,10 +868,21 @@ header {
   padding-top: 80px;
 }
 
-@media (max-width:1100px) {
+@media (max-width:1300px) {
   .portfolio__box {
     width: 1600px;
     top: 130px;
+    left: -10%;
+
+  }
+}
+
+@media (max-width:1150px) {
+  .portfolio__box {
+    width: 1600px;
+    top: 130px;
+    left: -15%;
+
   }
 }
 
