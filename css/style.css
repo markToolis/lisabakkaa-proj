@@ -2100,10 +2100,31 @@ footer nav {
   width: 32.1%;
   position: relative;
   max-height: 315px;
-  object-fit: covьутгer;
+  object-fit: contain;
 }
 .unser-ortfolio__item:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
+  z-index: 10;
+  transition: 0.5s;
+}
+.services-2__mini-box:hover{
+  transform: scale(1.05);
+  z-index: 10;
+  transition: 0.5s;
+}
+.services-2__mini-box:hover{
+  transform: scale(1.05);
+  z-index: 10;
+  transition: 0.5s;
+}
+.portfolio__item:hover{
+  transform: scale(1.05);
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.services__item:hover{
+  transform: scale(1.05);
   z-index: 10;
   transition: 0.5s;
 }
