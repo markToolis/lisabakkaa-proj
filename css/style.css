@@ -913,6 +913,7 @@ header {
   .portfolio__box {
     width: 8000px;
     top: 130px;
+    left: 0;
   }
 }
 
