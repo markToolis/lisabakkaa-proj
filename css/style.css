@@ -935,27 +935,128 @@ header {
   margin-left: 85px;
   margin-top: 30px;
 }
-
+@media (max-widrh:800px){
+  .portfolio__item:first-child>img {
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+.portfolio__item:nth-child(n+5):nth-child(-n+5)img {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.portfolio__item:nth-child(n+9):nth-child(-n+9)img {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.portfolio__item:nth-child(n+13):nth-child(-n+13)img {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.portfolio__item:nth-child(n+17):nth-child(-n+17)img {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 .portfolio__item:nth-child(n+2):nth-child(-n+2)>img {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   margin-top: 40px;
 }
-
+.portfolio__item:nth-child(n+10):nth-child(-n+10)>img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 40px;
+}
+.portfolio__item:nth-child(n+14):nth-child(-n+14)>img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 40px;
+}
+.portfolio__item:nth-child(n+6):nth-child(-n+6)>img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 40px;
+}
 .portfolio__item:nth-child(n+3):nth-child(-n+3)>img {
+  display: block;
   max-width: 352px;
   max-height: 280px;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
 }
-
+.portfolio__item:nth-child(n+7):nth-child(-n+7)>img {
+  display: block;
+  max-width: 352px;
+  max-height: 280px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.portfolio__item:nth-child(n+11):nth-child(-n+11)>img {
+  display: block;
+  max-width: 352px;
+  max-height: 280px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.portfolio__item:nth-child(n+15):nth-child(-n+15)>img {
+  display: block;
+  max-width: 352px;
+  max-height: 280px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
 .portfolio__item:nth-child(n+4):nth-child(-n+4)>img {
+  display: block;
   max-width: 474px;
   max-height: 317px;
   margin-right: 18px;
   margin-top: 35px;
 }
+.portfolio__item:nth-child(n+8):nth-child(-n+8)>img {
+  display: block;
+  max-width: 474px;
+  max-height: 317px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.portfolio__item:nth-child(n+12):nth-child(-n+12)>img {
+  display: block;
+  max-width: 474px;
+  max-height: 317px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.portfolio__item:nth-child(n+15):nth-child(-n+16)>img {
+  display: block;
+  max-width: 474px;
+  max-height: 317px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
 
 .white {
   background: rgb(255, 254, 254);
