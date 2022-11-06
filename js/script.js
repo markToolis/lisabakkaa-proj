@@ -14,25 +14,3 @@ portfilio__btn.addEventListener('click', function () {
   portfolio__box.style.cssText = `transform: translate(${String(px)}px,0);`;
   px = px -400
 })
-
-$('.slider').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    }
-  ]
-});
