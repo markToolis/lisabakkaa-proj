@@ -850,12 +850,13 @@ header {
   color: #FFFFFF;
 }
 .portfolio__box {
-  width: 1800px;
+  width: 1900px;
   display: flex;
   justify-content: space-between;
   position: absolute;
   top: 160px;
   transition: 0.5s;
+  left: -10%;
 }
 .portfolio__item{
   transform: scale(1.2);
@@ -870,9 +871,9 @@ header {
     top: 160px;
     transform: scale(1.0);
   }
-}
-.portfolio__item{
-  transform: scale(1.0);
+  .portfolio__item{
+    transform: scale(1.0);
+  }
 }
 
 @media (max-width:1300px) {
@@ -1946,9 +1947,6 @@ footer nav {
 }
 
 @media (max-width:700px) {
-  .reviews-2__title {
-    display: none;
-  }
 
   .reviews-2__title--mini {
     display: block;
@@ -1958,7 +1956,6 @@ footer nav {
 
   .reviews-2 {
     padding-bottom: 100px;
-    padding-top: 100px;
   }
 }
 
@@ -2285,9 +2282,9 @@ footer nav {
 .portfilio__btn{
   display: none;
 }
-/* .portfilio__btn-2{
+.portfilio__btn-2{
   display: none;
-} */
+}
 @media(max-width:1300px){
   .portfilio__btn{
     display: block;
@@ -2310,4 +2307,10 @@ footer nav {
     left: 35px;
     transform: rotate(180deg);
   }  
+}
+@media (max-width:800px) {
+  .call_title{
+    text-align: left;
+    margin-left: 13px;
+  }
 }
